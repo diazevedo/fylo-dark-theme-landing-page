@@ -1,0 +1,21 @@
+:root {
+  --primary-bcg-color: hsl(217, 28%, 15%);
+  --second-bcg-color: hsl(218, 28%, 13%);
+  --third-bcg-color: hsl(216, 53%, 9%);
+  --fourth-bcg-color: hsl(219, 30%, 18%);
+
+  --error-color: hsl(0, 100%, 63%);
+
+  --neutral-color: hsl(0, 0%, 100%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
