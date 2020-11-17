@@ -1,3 +1,38 @@
 header {
   width: 100%;
+  background-color: var(--primary-bcg-color);
+
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+
+  .logo {
+    width: 7.5rem;
+    height: 3.5rem;
+    margin-right: 2rem;
+  }
+
+  .menu {
+    flex: 1;
+    max-width: 20rem;
+
+    .menu-list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      li a {
+        color: inherit;
+
+        &:hover {
+          text-decoration: underline;
+          font-weight: 700;
+        }
+      }
+    }
+  }
 }
