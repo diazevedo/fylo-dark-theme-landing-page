@@ -1,0 +1,52 @@
+.intro {
+  width: 100%;
+  background: url("../images/bg-curvy-mobile.svg"),
+    linear-gradient(#1c2431 55%, #181f2a 61%);
+  background-repeat: no-repeat;
+  background-position-y: 45%;
+  background-size: contain;
+  padding: 1rem 3rem;
+
+  .image-intro {
+    width: 90%;
+    max-width: 37rem;
+    margin: 0 auto 4rem;
+    display: block;
+  }
+
+  .intro-text-container {
+    text-align: center;
+
+    .title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      font-family: "Raleway", sans-serif;
+      line-height: 3.6rem;
+    }
+
+    .text-body {
+      font-size: 1.5rem;
+      line-height: 1.5;
+      margin-top: 2rem;
+    }
+  }
+
+  .link-button {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 80%;
+    max-width: 24rem;
+    text-align: center;
+    display: block;
+    margin: 3rem auto 0;
+    border-radius: 30px;
+    padding: 1.5rem 4rem;
+    background: linear-gradient(to right, var(--cyan), var(--blue));
+
+    &:hover {
+      cursor: pointer;
+      background: var(--cyan);
+    }
+  }
+}
