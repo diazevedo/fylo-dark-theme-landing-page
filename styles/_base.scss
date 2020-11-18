@@ -54,3 +54,36 @@ body * {
 a {
   cursor: pointer;
 }
+
+input {
+  border: none;
+}
+
+.round-input {
+  margin: 3rem auto 0;
+  border-radius: 30px;
+  padding: 1.5rem 2rem;
+  display: block;
+
+  width: 80%;
+  max-width: 24rem;
+  background-color: #fff;
+
+  &::placeholder {
+    font-size: 1rem;
+    color: #818181;
+  }
+}
+
+.link-button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  background: linear-gradient(to right, var(--cyan), var(--blue));
+  color: inherit;
+
+  &:hover {
+    background: var(--cyan);
+  }
+}

@@ -27,23 +27,4 @@
       margin-top: 2rem;
     }
   }
-
-  .link-button {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    text-transform: capitalize;
-    width: 80%;
-    max-width: 24rem;
-    text-align: center;
-    display: block;
-    margin: 3rem auto 0;
-    border-radius: 30px;
-    padding: 1.5rem 4rem;
-    background: linear-gradient(to right, var(--cyan), var(--blue));
-
-    &:hover {
-      cursor: pointer;
-      background: var(--cyan);
-    }
-  }
 }
