@@ -503,7 +503,7 @@ a {
   cursor: pointer;
 }
 
-header {
+.page-header {
   width: 100%;
   background-color: var(--primary-bcg-color);
   font-family: "Raleway", sans-serif;
@@ -519,20 +519,20 @@ header {
   padding: 3rem 2rem;
 }
 
-header .logo {
+.page-header .logo {
   width: 7.5rem;
   height: 3rem;
   margin-right: 2rem;
 }
 
-header .menu {
+.page-header .menu {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   max-width: 20rem;
 }
 
-header .menu .menu-list {
+.page-header .menu .menu-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -543,11 +543,11 @@ header .menu .menu-list {
       flex-wrap: wrap;
 }
 
-header .menu .menu-list li a {
+.page-header .menu .menu-list li a {
   color: inherit;
 }
 
-header .menu .menu-list li a:hover {
+.page-header .menu .menu-list li a:hover {
   text-decoration: underline;
   font-weight: 700;
 }
@@ -658,5 +658,65 @@ header .menu .menu-list li a:hover {
 .how_it_works a:hover {
   -webkit-filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(134deg) brightness(104%) contrast(101%);
           filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(134deg) brightness(104%) contrast(101%);
+}
+
+.testimonials {
+  margin-top: 15rem;
+}
+
+.testimonials .testimonial {
+  background: var(--primary-bcg-color);
+  padding: 2rem 1.5rem;
+  margin-bottom: 3rem;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.testimonials .testimonial:first-child {
+  position: relative;
+}
+
+.testimonials .testimonial:first-child:before {
+  content: "";
+  background: url("../images/bg-quotes.png") no-repeat;
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: -1;
+}
+
+.testimonials .testimonial header {
+  margin-top: 2rem;
+}
+
+.testimonials .testimonial header img {
+  float: left;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.testimonials .testimonial header h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.testimonials .testimonial header p {
+  font-size: 1rem;
+}
+
+.testimonials .testimonial .depoiment {
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=styles.css.map */

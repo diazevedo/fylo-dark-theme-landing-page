@@ -1,0 +1,54 @@
+.testimonials {
+  margin-top: 15rem;
+
+  .testimonial {
+    background: var(--primary-bcg-color);
+    padding: 2rem 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    &:first-child {
+      position: relative;
+
+      &:before {
+        content: "";
+        background: url("../images/bg-quotes.png") no-repeat;
+        width: 7rem;
+        height: 7rem;
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+        z-index: -1;
+      }
+    }
+
+    header {
+      margin-top: 2rem;
+
+      img {
+        float: left;
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem;
+      }
+
+      h4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .depoiment {
+      font-size: 1.2rem;
+    }
+  }
+}
