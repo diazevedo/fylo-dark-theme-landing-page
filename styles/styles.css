@@ -479,6 +479,30 @@ body * {
           box-sizing: border-box;
 }
 
+.section_container {
+  padding: 1rem 3rem;
+}
+
+.third-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+}
+
 header {
   width: 100%;
   background-color: var(--primary-bcg-color);
@@ -535,7 +559,6 @@ header .menu .menu-list li a:hover {
   background-repeat: no-repeat;
   background-position-y: 45%;
   background-size: contain;
-  padding: 1rem 3rem;
 }
 
 .intro .image-intro {
@@ -556,9 +579,7 @@ header .menu .menu-list li a:hover {
   line-height: 3.6rem;
 }
 
-.intro .intro-text-container .text-body {
-  font-size: 1.5rem;
-  line-height: 1.5;
+.intro .intro-text-container .text {
   margin-top: 2rem;
 }
 
@@ -585,7 +606,6 @@ header .menu .menu-list li a:hover {
 .features {
   background: var(--second-bcg-color);
   margin-top: 10rem;
-  padding: 0 3rem;
 }
 
 .features .feature {
@@ -599,14 +619,44 @@ header .menu .menu-list li a:hover {
   margin-bottom: 4rem;
 }
 
-.features .feature h3 {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-}
-
 .features .feature p {
   line-height: 1.5;
+}
+
+.how_it_works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.how_it_works img {
+  width: 90%;
+  margin-bottom: 5rem;
+}
+
+.how_it_works .text {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+
+.how_it_works a {
+  font-size: 1.2rem;
+  color: var(--cyan);
+  padding: 0 2rem 0.3rem 0;
+  border-bottom: 2px solid var(--cyan);
+  background: url("../images/arrow-forward-circle.svg") no-repeat top right;
+  background-size: 1.5rem 100%;
+}
+
+.how_it_works a:hover {
+  -webkit-filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(134deg) brightness(104%) contrast(101%);
+          filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(134deg) brightness(104%) contrast(101%);
 }
 /*# sourceMappingURL=styles.css.map */

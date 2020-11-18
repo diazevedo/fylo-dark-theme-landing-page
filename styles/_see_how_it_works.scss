@@ -1,0 +1,30 @@
+.how_it_works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 90%;
+    margin-bottom: 5rem;
+  }
+
+  .text {
+    font-size: 1.4rem;
+    margin: 1rem 0;
+  }
+
+  a {
+    font-size: 1.2rem;
+    color: var(--cyan);
+    padding: 0 2rem 0.3rem 0;
+    border-bottom: 2px solid var(--cyan);
+
+    background: url("../images/arrow-forward-circle.svg") no-repeat top right;
+    background-size: 1.5rem 100%;
+
+    &:hover {
+      filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(134deg)
+        brightness(104%) contrast(101%);
+    }
+  }
+}
