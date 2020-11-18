@@ -470,6 +470,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--neutral-color);
+  background-color: var(--second-bcg-color);
 }
 
 body,
@@ -579,5 +580,33 @@ header .menu .menu-list li a:hover {
 .intro .link-button:hover {
   cursor: pointer;
   background: var(--cyan);
+}
+
+.features {
+  background: var(--second-bcg-color);
+  margin-top: 10rem;
+  padding: 0 3rem;
+}
+
+.features .feature {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.features .feature img {
+  width: 7.5rem;
+  height: 6.5rem;
+  margin-bottom: 4rem;
+}
+
+.features .feature h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.features .feature p {
+  line-height: 1.5;
 }
 /*# sourceMappingURL=styles.css.map */
