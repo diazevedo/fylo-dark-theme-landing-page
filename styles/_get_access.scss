@@ -1,5 +1,17 @@
 .get_acess {
   padding: 2rem;
+  position: relative;
+
+  &:after {
+    content: "";
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    background: var(--third-bcg-color);
+    bottom: -20%;
+    left: 0;
+    z-index: -1;
+  }
 
   .get_access_container {
     background: var(--primary-bcg-color);
