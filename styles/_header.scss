@@ -36,6 +36,10 @@
     flex: 1;
     max-width: 20rem;
 
+    @media (min-width: 900px) {
+      max-width: 30rem;
+    }
+
     .menu-list {
       display: flex;
       justify-content: space-between;

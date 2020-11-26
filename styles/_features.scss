@@ -29,5 +29,11 @@
     p {
       line-height: 1.5;
     }
+
+    .third-title {
+      @media (min-width: 900px) {
+        font-size: 2.6rem;
+      }
+    }
   }
 }
