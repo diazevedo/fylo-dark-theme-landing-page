@@ -40,6 +40,14 @@ body * {
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
+
+  @media (min-width: 900px) {
+    font-size: 3rem;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 4rem;
+  }
 }
 
 .text {

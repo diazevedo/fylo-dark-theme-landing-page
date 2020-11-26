@@ -1,6 +1,15 @@
 .testimonials {
   margin-top: 15rem;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 900px) {
+    flex-direction: row;
+  }
+
   .testimonial {
     background: var(--primary-bcg-color);
     padding: 2rem 1.5rem;
@@ -10,8 +19,16 @@
     display: flex;
     flex-direction: column-reverse;
 
+    margin-left: 4rem;
+
+    @media (min-width: 900px) {
+      max-width: 37rem;
+      padding: 2.5rem;
+    }
+
     &:first-child {
       position: relative;
+      margin-left: 0;
 
       &:before {
         content: "";
@@ -22,6 +39,12 @@
         top: 0;
         transform: translateY(-50%);
         z-index: -1;
+
+        @media (min-width: 900px) {
+          transform: translate(-45%, -45%);
+          width: 8rem;
+          height: 8rem;
+        }
       }
     }
 
@@ -44,11 +67,23 @@
 
       p {
         font-size: 1rem;
+
+        @media (min-width: 700px) {
+          font-size: 1.2rem;
+        }
       }
     }
 
     .depoiment {
       font-size: 1.2rem;
+
+      @media (min-width: 700px) {
+        font-size: 1.4rem;
+      }
+
+      @media (min-width: 1440px) {
+        font-size: 1.6rem;
+      }
     }
   }
 }
