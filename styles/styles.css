@@ -471,17 +471,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--neutral-color);
   background-color: var(--second-bcg-color);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 body,
 body * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-body {
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .section_container {
