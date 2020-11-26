@@ -1310,8 +1310,8 @@ input {
   }
 }
 
-.footer .list-social-items li {
-  margin-right: 0.4rem;
+.footer .list-social-items li:not(:last-child) {
+  margin-right: 1rem;
 }
 
 .footer .list-social-items li a {
