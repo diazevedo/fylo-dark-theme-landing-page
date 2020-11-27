@@ -949,7 +949,6 @@ input {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
-  margin-left: 4rem;
 }
 
 @media (min-width: 900px) {
@@ -957,6 +956,7 @@ input {
     max-width: 37rem;
     padding: 2.5rem;
     padding-top: 3.5rem;
+    margin-left: 4rem;
   }
 }
 
